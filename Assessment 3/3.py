@@ -11,7 +11,7 @@ def change_case(test):
         if char.islower(): # checks for lowercase letters
             print(char.upper(), end = "") # switches to uppercase letter
         
-        if char == " ": # leaves spaces 
+        if char == " ": # leaves spaces where there are spaces
             print(" ", end = "")
 
 change_case(input("Enter your desired string: \n"))
